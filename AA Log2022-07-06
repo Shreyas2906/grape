@@ -1,0 +1,51 @@
+# Logfile created on 2022-07-06 10:09:03 +0530 by logger.rb/66358
+I, [2022-07-06T10:09:50.037804 #8473]  INFO -- : Started GET "/api/v1/books" for 127.0.0.1 at 2022-07-06 10:09:50 +0530
+D, [2022-07-06T10:09:50.070871 #8473] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+D, [2022-07-06T10:09:50.071178 #8473] DEBUG -- :   ↳ vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.8/lib/active_record/log_subscriber.rb:98
+I, [2022-07-06T10:09:50.091301 #8473]  INFO -- : Hello Manager
+D, [2022-07-06T10:09:50.092683 #8473] DEBUG -- :   [1m[36mBook Load (0.4ms)[0m  [1m[34mSELECT  "books".* FROM "books" LIMIT ?[0m  [["LIMIT", 11]]
+D, [2022-07-06T10:09:50.093095 #8473] DEBUG -- :   ↳ app/api/book_store/v1/books.rb:14
+D, [2022-07-06T10:09:50.098568 #8473] DEBUG -- :   [1m[36mCACHE Book Load (0.0ms)[0m  [1m[34mSELECT  "books".* FROM "books" LIMIT ?[0m  [["LIMIT", 11]]
+D, [2022-07-06T10:09:50.099135 #8473] DEBUG -- :   ↳ app/api/book_store/v1/books.rb:14
+D, [2022-07-06T10:09:50.097817 #8473] DEBUG -- : #<ActiveRecord::Relation [#<Book id: 1, title: "Ruby on ", created_at: "2022-07-02 11:23:51", updated_at: "2022-07-02 11:23:51">]>
+D, [2022-07-06T10:09:50.105693 #8473] DEBUG -- :   [1m[36mBook Load (1.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+D, [2022-07-06T10:09:50.106284 #8473] DEBUG -- :   ↳ vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.8/lib/active_record/log_subscriber.rb:98
+D, [2022-07-06T10:40:46.479397 #15850] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+D, [2022-07-06T10:40:46.479897 #15850] DEBUG -- :   ↳ bin/rails:4
+I, [2022-07-06T10:40:46.480283 #15850]  INFO -- : Migrating to Two (20220706051037)
+D, [2022-07-06T10:40:46.482778 #15850] DEBUG -- :   [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+D, [2022-07-06T10:40:46.482926 #15850] DEBUG -- :   ↳ bin/rails:4
+D, [2022-07-06T10:40:46.486446 #15850] DEBUG -- :   [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20220706051037"]]
+D, [2022-07-06T10:40:46.486713 #15850] DEBUG -- :   ↳ bin/rails:4
+D, [2022-07-06T10:40:46.490530 #15850] DEBUG -- :   [1m[35m (3.4ms)[0m  [1m[36mcommit transaction[0m
+D, [2022-07-06T10:40:46.490898 #15850] DEBUG -- :   ↳ bin/rails:4
+D, [2022-07-06T10:40:46.493503 #15850] DEBUG -- :   [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+D, [2022-07-06T10:40:46.494002 #15850] DEBUG -- :   ↳ bin/rails:4
+D, [2022-07-06T10:40:46.526265 #15850] DEBUG -- :   [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+D, [2022-07-06T10:40:46.526453 #15850] DEBUG -- :   ↳ bin/rails:4
+D, [2022-07-06T10:40:46.527594 #15850] DEBUG -- :   [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+D, [2022-07-06T10:40:46.527976 #15850] DEBUG -- :   ↳ bin/rails:4
+D, [2022-07-06T10:40:46.529626 #15850] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+D, [2022-07-06T10:40:46.529907 #15850] DEBUG -- :   ↳ bin/rails:4
+D, [2022-07-06T10:41:57.438452 #15994] DEBUG -- :   [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+D, [2022-07-06T10:41:57.438985 #15994] DEBUG -- :   ↳ bin/rails:4
+I, [2022-07-06T10:41:57.439190 #15994]  INFO -- : Migrating to CreateWows (20220706051150)
+D, [2022-07-06T10:41:57.442022 #15994] DEBUG -- :   [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+D, [2022-07-06T10:41:57.442331 #15994] DEBUG -- :   ↳ bin/rails:4
+D, [2022-07-06T10:41:57.443025 #15994] DEBUG -- :   [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+D, [2022-07-06T10:41:57.443221 #15994] DEBUG -- :   ↳ db/migrate/20220706051150_create_wows.rb:3
+D, [2022-07-06T10:41:57.443717 #15994] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[35mCREATE TABLE "wows" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+D, [2022-07-06T10:41:57.443904 #15994] DEBUG -- :   ↳ db/migrate/20220706051150_create_wows.rb:3
+D, [2022-07-06T10:41:57.445585 #15994] DEBUG -- :   [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20220706051150"]]
+D, [2022-07-06T10:41:57.445802 #15994] DEBUG -- :   ↳ bin/rails:4
+D, [2022-07-06T10:41:57.449672 #15994] DEBUG -- :   [1m[35m (3.6ms)[0m  [1m[36mcommit transaction[0m
+D, [2022-07-06T10:41:57.449893 #15994] DEBUG -- :   ↳ bin/rails:4
+D, [2022-07-06T10:41:57.452150 #15994] DEBUG -- :   [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+D, [2022-07-06T10:41:57.452282 #15994] DEBUG -- :   ↳ bin/rails:4
+D, [2022-07-06T10:41:57.454901 #15994] DEBUG -- :   [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+D, [2022-07-06T10:41:57.455107 #15994] DEBUG -- :   ↳ bin/rails:4
+D, [2022-07-06T10:41:57.455844 #15994] DEBUG -- :   [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+D, [2022-07-06T10:41:57.456098 #15994] DEBUG -- :   ↳ bin/rails:4
+D, [2022-07-06T10:41:57.457725 #15994] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+D, [2022-07-06T10:41:57.458033 #15994] DEBUG -- :   ↳ bin/rails:4
+D, [2022-07-06T11:01:45.024639 #18192] DEBUG -- :   [1m[36mWow Load (0.4ms)[0m  [1m[34mSELECT  "wows".* FROM "wows" LIMIT ?[0m  [["LIMIT", 11]]

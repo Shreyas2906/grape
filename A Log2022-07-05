@@ -1,0 +1,12 @@
+# Logfile created on 2022-07-04 10:43:21 +0530 by logger.rb/66358
+I, [2022-07-04T10:43:24.164289 #14245]  INFO -- : Started GET "/api/v1/books" for 127.0.0.1 at 2022-07-04 10:43:24 +0530
+D, [2022-07-04T10:43:24.176933 #14245] DEBUG -- :   [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+D, [2022-07-04T10:43:24.177463 #14245] DEBUG -- :   ↳ vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.8/lib/active_record/log_subscriber.rb:98
+I, [2022-07-04T10:43:24.186204 #14245]  INFO -- : Hello Manager
+D, [2022-07-04T10:43:24.186971 #14245] DEBUG -- :   [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT  "books".* FROM "books" LIMIT ?[0m  [["LIMIT", 11]]
+D, [2022-07-04T10:43:24.187123 #14245] DEBUG -- :   ↳ app/api/book_store/v1/books.rb:14
+D, [2022-07-04T10:43:24.190025 #14245] DEBUG -- :   [1m[36mCACHE Book Load (0.0ms)[0m  [1m[34mSELECT  "books".* FROM "books" LIMIT ?[0m  [["LIMIT", 11]]
+D, [2022-07-04T10:43:24.190103 #14245] DEBUG -- :   ↳ app/api/book_store/v1/books.rb:14
+D, [2022-07-04T10:43:24.189785 #14245] DEBUG -- : #<ActiveRecord::Relation [#<Book id: 1, title: "Ruby on ", created_at: "2022-07-02 11:23:51", updated_at: "2022-07-02 11:23:51">]>
+D, [2022-07-04T10:43:24.191382 #14245] DEBUG -- :   [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+D, [2022-07-04T10:43:24.191597 #14245] DEBUG -- :   ↳ vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.8/lib/active_record/log_subscriber.rb:98

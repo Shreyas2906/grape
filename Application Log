@@ -1,0 +1,266 @@
+# Logfile created on 2022-07-02 16:59:13 +0530 by logger.rb/66358
+I, [2022-07-02T16:59:21.342506 #73525]  INFO -- : Started GET "/api/v1/books" for 127.0.0.1 at 2022-07-02 16:59:21 +0530
+D, [2022-07-02T16:59:21.366988 #73525] DEBUG -- :   [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+D, [2022-07-02T16:59:21.367270 #73525] DEBUG -- :   ↳ vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.8/lib/active_record/log_subscriber.rb:98
+I, [2022-07-02T16:59:21.381033 #73525]  INFO -- : Hello
+D, [2022-07-02T16:59:21.383189 #73525] DEBUG -- :   [1m[36mBook Load (0.4ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+D, [2022-07-02T16:59:21.383616 #73525] DEBUG -- :   ↳ vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.8/lib/active_record/log_subscriber.rb:98
+I, [2022-07-02T16:59:42.757835 #73525]  INFO -- : Started GET "/api/v1/books" for 127.0.0.1 at 2022-07-02 16:59:42 +0530
+I, [2022-07-02T16:59:42.759651 #73525]  INFO -- : Hello
+D, [2022-07-02T16:59:42.763048 #73525] DEBUG -- :   [1m[36mBook Load (0.8ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+D, [2022-07-02T16:59:42.763628 #73525] DEBUG -- :   ↳ vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.8/lib/active_record/log_subscriber.rb:98
+I, [2022-07-02T17:00:01.124726 #73525]  INFO -- : Started GET "/api/v1/books" for 127.0.0.1 at 2022-07-02 17:00:01 +0530
+I, [2022-07-02T17:00:01.126110 #73525]  INFO -- : Hello
+D, [2022-07-02T17:00:01.127099 #73525] DEBUG -- :   [1m[36mBook Load (0.3ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+D, [2022-07-02T17:00:01.127406 #73525] DEBUG -- :   ↳ vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.8/lib/active_record/log_subscriber.rb:98
+I, [2022-07-02T17:01:36.749564 #73525]  INFO -- : Started GET "/api/v1/books" for 127.0.0.1 at 2022-07-02 17:01:36 +0530
+I, [2022-07-02T17:01:36.789442 #73525]  INFO -- : Hello
+D, [2022-07-02T17:01:36.789646 #73525] DEBUG -- : nil
+D, [2022-07-02T17:01:36.791084 #73525] DEBUG -- :   [1m[36mBook Load (0.4ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+D, [2022-07-02T17:01:36.791404 #73525] DEBUG -- :   ↳ vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.8/lib/active_record/log_subscriber.rb:98
+I, [2022-07-02T17:01:44.262656 #73525]  INFO -- : Started GET "/api/v1/books" for 127.0.0.1 at 2022-07-02 17:01:44 +0530
+F, [2022-07-02T17:01:44.304592 #73525] FATAL -- :   
+F, [2022-07-02T17:01:44.304749 #73525] FATAL -- : NameError (uninitialized constant BookStore::V1::Books::Boo):
+F, [2022-07-02T17:01:44.304798 #73525] FATAL -- :   
+F, [2022-07-02T17:01:44.304870 #73525] FATAL -- : app/api/book_store/v1/books.rb:11:in `block (2 levels) in <class:Books>'
+I, [2022-07-02T17:01:44.393169 #73525]  INFO -- :   Rendering vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+I, [2022-07-02T17:01:44.397886 #73525]  INFO -- :   Rendering vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.8/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+I, [2022-07-02T17:01:44.405361 #73525]  INFO -- :   Rendered vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.8/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.9ms)
+I, [2022-07-02T17:01:44.407855 #73525]  INFO -- :   Rendering vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+I, [2022-07-02T17:01:44.411386 #73525]  INFO -- :   Rendered vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+I, [2022-07-02T17:01:44.414649 #73525]  INFO -- :   Rendering vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+I, [2022-07-02T17:01:44.420176 #73525]  INFO -- :   Rendered vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.6ms)
+I, [2022-07-02T17:01:44.420327 #73525]  INFO -- :   Rendered vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (27.0ms)
+I, [2022-07-02T17:01:44.426635 #73525]  INFO -- :   Rendering vendor/bundle/ruby/2.6.0/gems/web-console-3.7.0/lib/web_console/templates/index.html.erb
+I, [2022-07-02T17:01:44.429848 #73525]  INFO -- :   Rendered vendor/bundle/ruby/2.6.0/gems/web-console-3.7.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+I, [2022-07-02T17:01:44.435197 #73525]  INFO -- :   Rendering vendor/bundle/ruby/2.6.0/gems/web-console-3.7.0/lib/web_console/templates/console.js.erb within layouts/javascript
+I, [2022-07-02T17:01:44.442501 #73525]  INFO -- :   Rendering vendor/bundle/ruby/2.6.0/gems/web-console-3.7.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+I, [2022-07-02T17:01:44.443250 #73525]  INFO -- :   Rendered vendor/bundle/ruby/2.6.0/gems/web-console-3.7.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+I, [2022-07-02T17:01:44.449700 #73525]  INFO -- :   Rendering vendor/bundle/ruby/2.6.0/gems/web-console-3.7.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+I, [2022-07-02T17:01:44.450968 #73525]  INFO -- :   Rendered vendor/bundle/ruby/2.6.0/gems/web-console-3.7.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+I, [2022-07-02T17:01:44.453943 #73525]  INFO -- :   Rendering vendor/bundle/ruby/2.6.0/gems/web-console-3.7.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+I, [2022-07-02T17:01:44.454586 #73525]  INFO -- :   Rendered vendor/bundle/ruby/2.6.0/gems/web-console-3.7.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+I, [2022-07-02T17:01:44.456095 #73525]  INFO -- :   Rendered vendor/bundle/ruby/2.6.0/gems/web-console-3.7.0/lib/web_console/templates/console.js.erb within layouts/javascript (20.7ms)
+I, [2022-07-02T17:01:44.458313 #73525]  INFO -- :   Rendering vendor/bundle/ruby/2.6.0/gems/web-console-3.7.0/lib/web_console/templates/main.js.erb within layouts/javascript
+I, [2022-07-02T17:01:44.459796 #73525]  INFO -- :   Rendered vendor/bundle/ruby/2.6.0/gems/web-console-3.7.0/lib/web_console/templates/main.js.erb within layouts/javascript (1.3ms)
+I, [2022-07-02T17:01:44.462342 #73525]  INFO -- :   Rendering vendor/bundle/ruby/2.6.0/gems/web-console-3.7.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+I, [2022-07-02T17:01:44.463482 #73525]  INFO -- :   Rendered vendor/bundle/ruby/2.6.0/gems/web-console-3.7.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.9ms)
+I, [2022-07-02T17:01:44.464344 #73525]  INFO -- :   Rendered vendor/bundle/ruby/2.6.0/gems/web-console-3.7.0/lib/web_console/templates/index.html.erb (37.2ms)
+I, [2022-07-02T17:01:59.527487 #73525]  INFO -- : Started GET "/api/v1/books" for 127.0.0.1 at 2022-07-02 17:01:59 +0530
+D, [2022-07-02T17:01:59.575852 #73525] DEBUG -- : nil
+F, [2022-07-02T17:01:59.581002 #73525] FATAL -- :   
+F, [2022-07-02T17:01:59.581315 #73525] FATAL -- : NameError (uninitialized constant BookStore::V1::Books::Boo):
+F, [2022-07-02T17:01:59.581395 #73525] FATAL -- :   
+F, [2022-07-02T17:01:59.581516 #73525] FATAL -- : app/api/book_store/v1/books.rb:12:in `block (2 levels) in <class:Books>'
+I, [2022-07-02T17:01:59.649612 #73525]  INFO -- :   Rendering vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+I, [2022-07-02T17:01:59.654409 #73525]  INFO -- :   Rendering vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.8/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+I, [2022-07-02T17:01:59.656362 #73525]  INFO -- :   Rendered vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.8/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (1.8ms)
+I, [2022-07-02T17:01:59.658669 #73525]  INFO -- :   Rendering vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+I, [2022-07-02T17:01:59.660033 #73525]  INFO -- :   Rendered vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+I, [2022-07-02T17:01:59.662582 #73525]  INFO -- :   Rendering vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+I, [2022-07-02T17:01:59.664357 #73525]  INFO -- :   Rendered vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+I, [2022-07-02T17:01:59.665238 #73525]  INFO -- :   Rendered vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (14.8ms)
+I, [2022-07-02T17:01:59.670467 #73525]  INFO -- :   Rendering vendor/bundle/ruby/2.6.0/gems/web-console-3.7.0/lib/web_console/templates/index.html.erb
+I, [2022-07-02T17:01:59.673445 #73525]  INFO -- :   Rendered vendor/bundle/ruby/2.6.0/gems/web-console-3.7.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+I, [2022-07-02T17:01:59.675903 #73525]  INFO -- :   Rendering vendor/bundle/ruby/2.6.0/gems/web-console-3.7.0/lib/web_console/templates/console.js.erb within layouts/javascript
+I, [2022-07-02T17:01:59.680469 #73525]  INFO -- :   Rendering vendor/bundle/ruby/2.6.0/gems/web-console-3.7.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+I, [2022-07-02T17:01:59.683173 #73525]  INFO -- :   Rendered vendor/bundle/ruby/2.6.0/gems/web-console-3.7.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.9ms)
+I, [2022-07-02T17:01:59.688975 #73525]  INFO -- :   Rendering vendor/bundle/ruby/2.6.0/gems/web-console-3.7.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+I, [2022-07-02T17:01:59.689675 #73525]  INFO -- :   Rendered vendor/bundle/ruby/2.6.0/gems/web-console-3.7.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+I, [2022-07-02T17:01:59.693380 #73525]  INFO -- :   Rendering vendor/bundle/ruby/2.6.0/gems/web-console-3.7.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+I, [2022-07-02T17:01:59.694124 #73525]  INFO -- :   Rendered vendor/bundle/ruby/2.6.0/gems/web-console-3.7.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+I, [2022-07-02T17:01:59.694954 #73525]  INFO -- :   Rendered vendor/bundle/ruby/2.6.0/gems/web-console-3.7.0/lib/web_console/templates/console.js.erb within layouts/javascript (18.8ms)
+I, [2022-07-02T17:01:59.700128 #73525]  INFO -- :   Rendering vendor/bundle/ruby/2.6.0/gems/web-console-3.7.0/lib/web_console/templates/main.js.erb within layouts/javascript
+I, [2022-07-02T17:01:59.701303 #73525]  INFO -- :   Rendered vendor/bundle/ruby/2.6.0/gems/web-console-3.7.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.8ms)
+I, [2022-07-02T17:01:59.704397 #73525]  INFO -- :   Rendering vendor/bundle/ruby/2.6.0/gems/web-console-3.7.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+I, [2022-07-02T17:01:59.705155 #73525]  INFO -- :   Rendered vendor/bundle/ruby/2.6.0/gems/web-console-3.7.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+I, [2022-07-02T17:01:59.705365 #73525]  INFO -- :   Rendered vendor/bundle/ruby/2.6.0/gems/web-console-3.7.0/lib/web_console/templates/index.html.erb (34.8ms)
+I, [2022-07-02T17:02:29.015473 #73525]  INFO -- : Started GET "/api/v1/books" for 127.0.0.1 at 2022-07-02 17:02:29 +0530
+I, [2022-07-02T17:02:29.074575 #73525]  INFO -- : Hello
+D, [2022-07-02T17:02:29.075782 #73525] DEBUG -- :   [1m[36mBook Load (0.3ms)[0m  [1m[34mSELECT  "books".* FROM "books" LIMIT ?[0m  [["LIMIT", 11]]
+D, [2022-07-02T17:02:29.076064 #73525] DEBUG -- :   ↳ app/api/book_store/v1/books.rb:14
+D, [2022-07-02T17:02:29.081273 #73525] DEBUG -- :   [1m[36mCACHE Book Load (0.0ms)[0m  [1m[34mSELECT  "books".* FROM "books" LIMIT ?[0m  [["LIMIT", 11]]
+D, [2022-07-02T17:02:29.082032 #73525] DEBUG -- :   ↳ app/api/book_store/v1/books.rb:14
+D, [2022-07-02T17:02:29.080351 #73525] DEBUG -- : #<ActiveRecord::Relation [#<Book id: 1, title: "Ruby on ", created_at: "2022-07-02 11:23:51", updated_at: "2022-07-02 11:23:51">]>
+D, [2022-07-02T17:02:29.086443 #73525] DEBUG -- :   [1m[36mBook Load (0.3ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+D, [2022-07-02T17:02:29.086853 #73525] DEBUG -- :   ↳ vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.8/lib/active_record/log_subscriber.rb:98
+I, [2022-07-02T17:03:59.832267 #74039]  INFO -- : Started GET "/api/v1/books" for 127.0.0.1 at 2022-07-02 17:03:59 +0530
+D, [2022-07-02T17:03:59.861970 #74039] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+D, [2022-07-02T17:03:59.862397 #74039] DEBUG -- :   ↳ vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.8/lib/active_record/log_subscriber.rb:98
+I, [2022-07-02T17:03:59.877591 #74039]  INFO -- : Hello
+F, [2022-07-02T17:03:59.879279 #74039] FATAL -- :   
+D, [2022-07-02T17:03:59.890833 #74039] DEBUG -- :   [1m[36mBook Load (0.4ms)[0m  [1m[34mSELECT  "books".* FROM "books" LIMIT ?[0m  [["LIMIT", 11]]
+D, [2022-07-02T17:03:59.891125 #74039] DEBUG -- :   ↳ vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.8/lib/active_record/log_subscriber.rb:98
+F, [2022-07-02T17:04:00.065650 #74039] FATAL -- : NameError (undefined local variable or method `logger' for #<#<Class:0x0000563d342380d0>:0x00007f2788b955d0>):
+F, [2022-07-02T17:04:00.065842 #74039] FATAL -- :   
+F, [2022-07-02T17:04:00.066005 #74039] FATAL -- : app/api/book_store/v1/books.rb:14:in `block (2 levels) in <class:Books>'
+I, [2022-07-02T17:04:00.141811 #74039]  INFO -- :   Rendering vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+D, [2022-07-02T17:04:00.150176 #74039] DEBUG -- :   [1m[36mCACHE Book Load (0.0ms)[0m  [1m[34mSELECT  "books".* FROM "books" LIMIT ?[0m  [["LIMIT", 11]]
+D, [2022-07-02T17:04:00.150418 #74039] DEBUG -- :   ↳ vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.8/lib/active_record/log_subscriber.rb:98
+I, [2022-07-02T17:04:00.299880 #74039]  INFO -- :   Rendering vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.8/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+I, [2022-07-02T17:04:00.302126 #74039]  INFO -- :   Rendered vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.8/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.0ms)
+I, [2022-07-02T17:04:00.304565 #74039]  INFO -- :   Rendering vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+I, [2022-07-02T17:04:00.306049 #74039]  INFO -- :   Rendered vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+I, [2022-07-02T17:04:00.308637 #74039]  INFO -- :   Rendering vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+I, [2022-07-02T17:04:00.311210 #74039]  INFO -- :   Rendered vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.4ms)
+I, [2022-07-02T17:04:00.311346 #74039]  INFO -- :   Rendered vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (169.4ms)
+I, [2022-07-02T17:04:00.314967 #74039]  INFO -- :   Rendering vendor/bundle/ruby/2.6.0/gems/web-console-3.7.0/lib/web_console/templates/index.html.erb
+I, [2022-07-02T17:04:00.318419 #74039]  INFO -- :   Rendered vendor/bundle/ruby/2.6.0/gems/web-console-3.7.0/lib/web_console/templates/_markup.html.erb (0.9ms)
+I, [2022-07-02T17:04:00.321999 #74039]  INFO -- :   Rendering vendor/bundle/ruby/2.6.0/gems/web-console-3.7.0/lib/web_console/templates/console.js.erb within layouts/javascript
+I, [2022-07-02T17:04:00.325830 #74039]  INFO -- :   Rendering vendor/bundle/ruby/2.6.0/gems/web-console-3.7.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+I, [2022-07-02T17:04:00.326405 #74039]  INFO -- :   Rendered vendor/bundle/ruby/2.6.0/gems/web-console-3.7.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+I, [2022-07-02T17:04:00.329549 #74039]  INFO -- :   Rendering vendor/bundle/ruby/2.6.0/gems/web-console-3.7.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+I, [2022-07-02T17:04:00.330109 #74039]  INFO -- :   Rendered vendor/bundle/ruby/2.6.0/gems/web-console-3.7.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+I, [2022-07-02T17:04:00.332693 #74039]  INFO -- :   Rendering vendor/bundle/ruby/2.6.0/gems/web-console-3.7.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+I, [2022-07-02T17:04:00.333253 #74039]  INFO -- :   Rendered vendor/bundle/ruby/2.6.0/gems/web-console-3.7.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+I, [2022-07-02T17:04:00.333929 #74039]  INFO -- :   Rendered vendor/bundle/ruby/2.6.0/gems/web-console-3.7.0/lib/web_console/templates/console.js.erb within layouts/javascript (11.8ms)
+I, [2022-07-02T17:04:00.336712 #74039]  INFO -- :   Rendering vendor/bundle/ruby/2.6.0/gems/web-console-3.7.0/lib/web_console/templates/main.js.erb within layouts/javascript
+I, [2022-07-02T17:04:00.337473 #74039]  INFO -- :   Rendered vendor/bundle/ruby/2.6.0/gems/web-console-3.7.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+I, [2022-07-02T17:04:00.339972 #74039]  INFO -- :   Rendering vendor/bundle/ruby/2.6.0/gems/web-console-3.7.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+I, [2022-07-02T17:04:00.340668 #74039]  INFO -- :   Rendered vendor/bundle/ruby/2.6.0/gems/web-console-3.7.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+I, [2022-07-02T17:04:00.340890 #74039]  INFO -- :   Rendered vendor/bundle/ruby/2.6.0/gems/web-console-3.7.0/lib/web_console/templates/index.html.erb (25.8ms)
+I, [2022-07-02T17:04:27.014286 #74158]  INFO -- : Started GET "/api/v1/books" for 127.0.0.1 at 2022-07-02 17:04:27 +0530
+D, [2022-07-02T17:04:27.041480 #74158] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+D, [2022-07-02T17:04:27.041615 #74158] DEBUG -- :   ↳ vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.8/lib/active_record/log_subscriber.rb:98
+I, [2022-07-02T17:04:27.049850 #74158]  INFO -- : Hello
+D, [2022-07-02T17:04:27.049916 #74158] DEBUG -- : nil
+D, [2022-07-02T17:04:27.052024 #74158] DEBUG -- :   [1m[36mBook Load (0.5ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+D, [2022-07-02T17:04:27.052543 #74158] DEBUG -- :   ↳ vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.8/lib/active_record/log_subscriber.rb:98
+I, [2022-07-02T17:05:37.553503 #74158]  INFO -- : Started GET "/api/v1/books" for 127.0.0.1 at 2022-07-02 17:05:37 +0530
+I, [2022-07-02T17:05:37.596099 #74158]  INFO -- : Hello
+D, [2022-07-02T17:05:37.596227 #74158] DEBUG -- : nil
+D, [2022-07-02T17:06:20.431754 #74158] DEBUG -- :   [1m[36mBook Load (0.7ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+D, [2022-07-02T17:06:20.435111 #74158] DEBUG -- :   ↳ vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.8/lib/active_record/log_subscriber.rb:98
+I, [2022-07-02T17:06:27.043667 #74389]  INFO -- : Started GET "/api/v1/books" for 127.0.0.1 at 2022-07-02 17:06:27 +0530
+D, [2022-07-02T17:06:27.065951 #74389] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+D, [2022-07-02T17:06:27.066106 #74389] DEBUG -- :   ↳ vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.8/lib/active_record/log_subscriber.rb:98
+I, [2022-07-02T17:06:27.077680 #74389]  INFO -- : Hello
+D, [2022-07-02T17:06:27.077811 #74389] DEBUG -- : nil
+D, [2022-07-02T17:06:27.079944 #74389] DEBUG -- :   [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+D, [2022-07-02T17:06:27.080288 #74389] DEBUG -- :   ↳ vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.8/lib/active_record/log_subscriber.rb:98
+I, [2022-07-02T17:09:31.531841 #74389]  INFO -- : Started GET "/api/v1/books" for 127.0.0.1 at 2022-07-02 17:09:31 +0530
+I, [2022-07-02T17:09:31.533667 #74389]  INFO -- : Hello
+D, [2022-07-02T17:09:31.533772 #74389] DEBUG -- : nil
+D, [2022-07-02T17:09:31.535702 #74389] DEBUG -- :   [1m[36mBook Load (0.4ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+D, [2022-07-02T17:09:31.536171 #74389] DEBUG -- :   ↳ vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.8/lib/active_record/log_subscriber.rb:98
+I, [2022-07-02T17:10:24.578148 #74389]  INFO -- : Started GET "/api/v1/books" for 127.0.0.1 at 2022-07-02 17:10:24 +0530
+I, [2022-07-02T17:10:24.580157 #74389]  INFO -- : Hello
+D, [2022-07-02T17:10:24.580312 #74389] DEBUG -- : nil
+D, [2022-07-02T17:10:24.581732 #74389] DEBUG -- :   [1m[36mBook Load (0.4ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+D, [2022-07-02T17:10:24.582160 #74389] DEBUG -- :   ↳ vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.8/lib/active_record/log_subscriber.rb:98
+I, [2022-07-02T17:11:03.932529 #74389]  INFO -- : Started GET "/api/v1/books" for 127.0.0.1 at 2022-07-02 17:11:03 +0530
+I, [2022-07-02T17:11:03.934786 #74389]  INFO -- : Hello
+D, [2022-07-02T17:11:03.935159 #74389] DEBUG -- : nil
+D, [2022-07-02T17:11:03.938799 #74389] DEBUG -- :   [1m[36mBook Load (0.8ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+D, [2022-07-02T17:11:03.939275 #74389] DEBUG -- :   ↳ vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.8/lib/active_record/log_subscriber.rb:98
+I, [2022-07-02T17:13:01.153256 #75010]  INFO -- : Started GET "/api/v1/books" for 127.0.0.1 at 2022-07-02 17:13:01 +0530
+D, [2022-07-02T17:13:01.180800 #75010] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+D, [2022-07-02T17:13:01.181129 #75010] DEBUG -- :   ↳ vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.8/lib/active_record/log_subscriber.rb:98
+I, [2022-07-02T17:13:01.199021 #75010]  INFO -- : Hello
+D, [2022-07-02T17:13:01.199148 #75010] DEBUG -- : nil
+D, [2022-07-02T17:13:01.201648 #75010] DEBUG -- :   [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+D, [2022-07-02T17:13:01.201926 #75010] DEBUG -- :   ↳ vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.8/lib/active_record/log_subscriber.rb:98
+I, [2022-07-02T17:14:26.128802 #75010]  INFO -- : Started GET "/api/v1/books" for 127.0.0.1 at 2022-07-02 17:14:26 +0530
+I, [2022-07-02T17:14:26.131832 #75010]  INFO -- : Hello
+D, [2022-07-02T17:14:26.132067 #75010] DEBUG -- : nil
+D, [2022-07-02T17:14:26.133539 #75010] DEBUG -- :   [1m[36mBook Load (0.3ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+D, [2022-07-02T17:14:26.134451 #75010] DEBUG -- :   ↳ vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.8/lib/active_record/log_subscriber.rb:98
+I, [2022-07-02T17:45:18.032838 #75010]  INFO -- : Started GET "/" for 127.0.0.1 at 2022-07-02 17:45:18 +0530
+I, [2022-07-02T17:45:18.062074 #75010]  INFO -- : Processing by Rails::WelcomeController#index as HTML
+I, [2022-07-02T17:45:18.068680 #75010]  INFO -- :   Rendering vendor/bundle/ruby/2.6.0/gems/railties-5.2.8/lib/rails/templates/rails/welcome/index.html.erb
+I, [2022-07-02T17:45:18.074290 #75010]  INFO -- :   Rendered vendor/bundle/ruby/2.6.0/gems/railties-5.2.8/lib/rails/templates/rails/welcome/index.html.erb (4.5ms)
+I, [2022-07-02T17:45:18.074966 #75010]  INFO -- : Completed 200 OK in 12ms (Views: 8.5ms | ActiveRecord: 0.0ms)
+
+
+I, [2022-07-02T17:45:25.670220 #75010]  INFO -- : Started GET "/api" for 127.0.0.1 at 2022-07-02 17:45:25 +0530
+F, [2022-07-02T17:45:25.672363 #75010] FATAL -- :   
+F, [2022-07-02T17:45:25.672642 #75010] FATAL -- : ActionController::RoutingError (No route matches [GET] "/api"):
+F, [2022-07-02T17:45:25.672816 #75010] FATAL -- :   
+F, [2022-07-02T17:45:25.672939 #75010] FATAL -- : vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.8/lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+vendor/bundle/ruby/2.6.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/ruby/2.6.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:30:in `block in call'
+vendor/bundle/ruby/2.6.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `catch'
+vendor/bundle/ruby/2.6.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `call'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.8/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+vendor/bundle/ruby/2.6.0/gems/railties-5.2.8/lib/rails/rack/logger.rb:38:in `call_app'
+vendor/bundle/ruby/2.6.0/gems/railties-5.2.8/lib/rails/rack/logger.rb:28:in `call'
+vendor/bundle/ruby/2.6.0/gems/sprockets-rails-3.4.2/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.8/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.8/lib/action_dispatch/middleware/request_id.rb:27:in `call'
+vendor/bundle/ruby/2.6.0/gems/rack-2.2.4/lib/rack/method_override.rb:24:in `call'
+vendor/bundle/ruby/2.6.0/gems/rack-2.2.4/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/ruby/2.6.0/gems/activesupport-5.2.8/lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.8/lib/action_dispatch/middleware/executor.rb:14:in `call'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.8/lib/action_dispatch/middleware/static.rb:127:in `call'
+vendor/bundle/ruby/2.6.0/gems/rack-2.2.4/lib/rack/sendfile.rb:110:in `call'
+vendor/bundle/ruby/2.6.0/gems/railties-5.2.8/lib/rails/engine.rb:524:in `call'
+vendor/bundle/ruby/2.6.0/gems/puma-3.12.6/lib/puma/configuration.rb:227:in `call'
+vendor/bundle/ruby/2.6.0/gems/puma-3.12.6/lib/puma/server.rb:706:in `handle_request'
+vendor/bundle/ruby/2.6.0/gems/puma-3.12.6/lib/puma/server.rb:476:in `process_client'
+vendor/bundle/ruby/2.6.0/gems/puma-3.12.6/lib/puma/server.rb:334:in `block in run'
+vendor/bundle/ruby/2.6.0/gems/puma-3.12.6/lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+I, [2022-07-02T17:45:25.687869 #75010]  INFO -- :   Rendering vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+I, [2022-07-02T17:45:25.694796 #75010]  INFO -- :   Rendering vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+I, [2022-07-02T17:45:25.696895 #75010]  INFO -- :   Rendered vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+I, [2022-07-02T17:45:25.704836 #75010]  INFO -- :   Rendered collection of vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb [6 times] (4.3ms)
+I, [2022-07-02T17:45:25.717917 #75010]  INFO -- :   Rendered vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (10.5ms)
+I, [2022-07-02T17:45:25.721119 #75010]  INFO -- :   Rendering vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+I, [2022-07-02T17:45:25.724984 #75010]  INFO -- :   Rendered vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.5ms)
+I, [2022-07-02T17:45:25.725166 #75010]  INFO -- :   Rendered vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (37.1ms)
+I, [2022-07-02T17:45:25.733878 #75010]  INFO -- :   Rendering vendor/bundle/ruby/2.6.0/gems/web-console-3.7.0/lib/web_console/templates/index.html.erb
+I, [2022-07-02T17:45:25.737077 #75010]  INFO -- :   Rendered vendor/bundle/ruby/2.6.0/gems/web-console-3.7.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+I, [2022-07-02T17:45:25.742314 #75010]  INFO -- :   Rendering vendor/bundle/ruby/2.6.0/gems/web-console-3.7.0/lib/web_console/templates/console.js.erb within layouts/javascript
+I, [2022-07-02T17:45:25.747617 #75010]  INFO -- :   Rendering vendor/bundle/ruby/2.6.0/gems/web-console-3.7.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+I, [2022-07-02T17:45:25.748432 #75010]  INFO -- :   Rendered vendor/bundle/ruby/2.6.0/gems/web-console-3.7.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+I, [2022-07-02T17:45:25.751868 #75010]  INFO -- :   Rendering vendor/bundle/ruby/2.6.0/gems/web-console-3.7.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+I, [2022-07-02T17:45:25.752500 #75010]  INFO -- :   Rendered vendor/bundle/ruby/2.6.0/gems/web-console-3.7.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+I, [2022-07-02T17:45:25.757531 #75010]  INFO -- :   Rendering vendor/bundle/ruby/2.6.0/gems/web-console-3.7.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+I, [2022-07-02T17:45:25.759114 #75010]  INFO -- :   Rendered vendor/bundle/ruby/2.6.0/gems/web-console-3.7.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.8ms)
+I, [2022-07-02T17:45:25.760161 #75010]  INFO -- :   Rendered vendor/bundle/ruby/2.6.0/gems/web-console-3.7.0/lib/web_console/templates/console.js.erb within layouts/javascript (17.6ms)
+I, [2022-07-02T17:45:25.763109 #75010]  INFO -- :   Rendering vendor/bundle/ruby/2.6.0/gems/web-console-3.7.0/lib/web_console/templates/main.js.erb within layouts/javascript
+I, [2022-07-02T17:45:25.764323 #75010]  INFO -- :   Rendered vendor/bundle/ruby/2.6.0/gems/web-console-3.7.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.8ms)
+I, [2022-07-02T17:45:25.802940 #75010]  INFO -- :   Rendering vendor/bundle/ruby/2.6.0/gems/web-console-3.7.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+I, [2022-07-02T17:45:25.803957 #75010]  INFO -- :   Rendered vendor/bundle/ruby/2.6.0/gems/web-console-3.7.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+I, [2022-07-02T17:45:25.804271 #75010]  INFO -- :   Rendered vendor/bundle/ruby/2.6.0/gems/web-console-3.7.0/lib/web_console/templates/index.html.erb (70.3ms)
+I, [2022-07-02T17:48:16.465938 #78379]  INFO -- : Started GET "/api/v1/books" for 127.0.0.1 at 2022-07-02 17:48:16 +0530
+D, [2022-07-02T17:48:16.487368 #78379] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+D, [2022-07-02T17:48:16.487727 #78379] DEBUG -- :   ↳ vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.8/lib/active_record/log_subscriber.rb:98
+I, [2022-07-02T17:48:16.501050 #78379]  INFO -- : Hello
+D, [2022-07-02T17:48:16.501145 #78379] DEBUG -- : nil
+D, [2022-07-02T17:48:16.502651 #78379] DEBUG -- :   [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+D, [2022-07-02T17:48:16.502932 #78379] DEBUG -- :   ↳ vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.8/lib/active_record/log_subscriber.rb:98
+I, [2022-07-02T17:48:59.297014 #78379]  INFO -- : Started GET "/api/v1/books" for 127.0.0.1 at 2022-07-02 17:48:59 +0530
+I, [2022-07-02T17:48:59.299956 #78379]  INFO -- : Hello
+D, [2022-07-02T17:48:59.300227 #78379] DEBUG -- : nil
+D, [2022-07-02T17:48:59.302988 #78379] DEBUG -- :   [1m[36mBook Load (0.6ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+D, [2022-07-02T17:48:59.303816 #78379] DEBUG -- :   ↳ vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.8/lib/active_record/log_subscriber.rb:98
+I, [2022-07-02T17:51:23.184347 #78379]  INFO -- : Started GET "/api/v1/books" for 127.0.0.1 at 2022-07-02 17:51:23 +0530
+I, [2022-07-02T17:51:23.231079 #78379]  INFO -- : Hello Manager
+D, [2022-07-02T17:51:23.231215 #78379] DEBUG -- : nil
+D, [2022-07-02T17:51:23.232359 #78379] DEBUG -- :   [1m[36mBook Load (0.3ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+D, [2022-07-02T17:51:23.232630 #78379] DEBUG -- :   ↳ vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.8/lib/active_record/log_subscriber.rb:98
+I, [2022-07-02T17:51:56.345920 #78379]  INFO -- : Started GET "/api/v1/books" for 127.0.0.1 at 2022-07-02 17:51:56 +0530
+I, [2022-07-02T17:51:56.396346 #78379]  INFO -- : Hello Manager
+D, [2022-07-02T17:51:56.396492 #78379] DEBUG -- : nil
+D, [2022-07-02T17:51:56.397797 #78379] DEBUG -- :   [1m[36mBook Load (0.3ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+D, [2022-07-02T17:51:56.398112 #78379] DEBUG -- :   ↳ vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.8/lib/active_record/log_subscriber.rb:98
+I, [2022-07-04T10:34:42.129088 #12871]  INFO -- : Started GET "/api/v1/books" for 127.0.0.1 at 2022-07-04 10:34:42 +0530
+D, [2022-07-04T10:34:42.139866 #12871] DEBUG -- :   [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+D, [2022-07-04T10:34:42.140095 #12871] DEBUG -- :   ↳ vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.8/lib/active_record/log_subscriber.rb:98
+I, [2022-07-04T10:34:42.148720 #12871]  INFO -- : Hello Manager
+D, [2022-07-04T10:34:42.149378 #12871] DEBUG -- :   [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT  "books".* FROM "books" LIMIT ?[0m  [["LIMIT", 11]]
+D, [2022-07-04T10:34:42.149524 #12871] DEBUG -- :   ↳ app/api/book_store/v1/books.rb:14
+D, [2022-07-04T10:34:42.152936 #12871] DEBUG -- :   [1m[36mCACHE Book Load (0.0ms)[0m  [1m[34mSELECT  "books".* FROM "books" LIMIT ?[0m  [["LIMIT", 11]]
+D, [2022-07-04T10:34:42.153106 #12871] DEBUG -- :   ↳ app/api/book_store/v1/books.rb:14
+D, [2022-07-04T10:34:42.152553 #12871] DEBUG -- : #<ActiveRecord::Relation [#<Book id: 1, title: "Ruby on ", created_at: "2022-07-02 11:23:51", updated_at: "2022-07-02 11:23:51">]>
+D, [2022-07-04T10:34:42.154301 #12871] DEBUG -- :   [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+D, [2022-07-04T10:34:42.154470 #12871] DEBUG -- :   ↳ vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.8/lib/active_record/log_subscriber.rb:98
+I, [2022-07-04T10:35:22.340959 #12871]  INFO -- : Started GET "/api/v1/books" for 127.0.0.1 at 2022-07-04 10:35:22 +0530
+I, [2022-07-04T10:35:22.342390 #12871]  INFO -- : Hello Manager
+D, [2022-07-04T10:35:22.343444 #12871] DEBUG -- :   [1m[36mBook Load (0.3ms)[0m  [1m[34mSELECT  "books".* FROM "books" LIMIT ?[0m  [["LIMIT", 11]]
+D, [2022-07-04T10:35:22.343759 #12871] DEBUG -- :   ↳ app/api/book_store/v1/books.rb:14
+D, [2022-07-04T10:35:22.345533 #12871] DEBUG -- :   [1m[36mCACHE Book Load (0.0ms)[0m  [1m[34mSELECT  "books".* FROM "books" LIMIT ?[0m  [["LIMIT", 11]]
+D, [2022-07-04T10:35:22.346191 #12871] DEBUG -- :   ↳ app/api/book_store/v1/books.rb:14
+D, [2022-07-04T10:35:22.344573 #12871] DEBUG -- : #<ActiveRecord::Relation [#<Book id: 1, title: "Ruby on ", created_at: "2022-07-02 11:23:51", updated_at: "2022-07-02 11:23:51">]>
+D, [2022-07-04T10:35:22.348266 #12871] DEBUG -- :   [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+D, [2022-07-04T10:35:22.348580 #12871] DEBUG -- :   ↳ vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.8/lib/active_record/log_subscriber.rb:98

@@ -1,0 +1,20 @@
+# Logfile created on 2022-07-09 14:48:09 +0530 by logger.rb/66358
+D, [2022-07-09T14:48:19.676766 #11538] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+D, [2022-07-09T14:48:19.677080 #11538] DEBUG -- :   ↳ bin/rails:4
+I, [2022-07-09T14:48:19.677282 #11538]  INFO -- : Migrating to AddColumnToWow (20220709091809)
+D, [2022-07-09T14:48:19.678931 #11538] DEBUG -- :   [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+D, [2022-07-09T14:48:19.679306 #11538] DEBUG -- :   ↳ bin/rails:4
+D, [2022-07-09T14:48:19.680130 #11538] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[35mALTER TABLE "wows" ADD "car" varchar[0m
+D, [2022-07-09T14:48:19.680265 #11538] DEBUG -- :   ↳ db/migrate/20220709091809_add_column_to_wow.rb:3
+D, [2022-07-09T14:48:19.681881 #11538] DEBUG -- :   [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20220709091809"]]
+D, [2022-07-09T14:48:19.682053 #11538] DEBUG -- :   ↳ bin/rails:4
+D, [2022-07-09T14:48:19.685145 #11538] DEBUG -- :   [1m[35m (2.9ms)[0m  [1m[36mcommit transaction[0m
+D, [2022-07-09T14:48:19.685296 #11538] DEBUG -- :   ↳ bin/rails:4
+D, [2022-07-09T14:48:19.687133 #11538] DEBUG -- :   [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+D, [2022-07-09T14:48:19.687295 #11538] DEBUG -- :   ↳ bin/rails:4
+D, [2022-07-09T14:48:19.700036 #11538] DEBUG -- :   [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+D, [2022-07-09T14:48:19.700284 #11538] DEBUG -- :   ↳ bin/rails:4
+D, [2022-07-09T14:48:19.700919 #11538] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+D, [2022-07-09T14:48:19.701049 #11538] DEBUG -- :   ↳ bin/rails:4
+D, [2022-07-09T14:48:19.702065 #11538] DEBUG -- :   [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+D, [2022-07-09T14:48:19.702182 #11538] DEBUG -- :   ↳ bin/rails:4

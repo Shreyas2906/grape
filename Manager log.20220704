@@ -1,0 +1,2 @@
+# Logfile created on 2022-07-04 10:29:38 +0530 by logger.rb/66358
+D, [2022-07-04T10:29:38.257773 #10978] DEBUG -- :   ↳ vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.8/lib/active_record/log_subscriber.rb:98
